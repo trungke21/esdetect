@@ -1,0 +1,17 @@
+{
+    "name": "esdetect/faceswap",
+    "description": "Enable Startup",
+    "authors": [
+        {
+            "name": "Trung Ke",
+            "email": "trung@enablestartup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
