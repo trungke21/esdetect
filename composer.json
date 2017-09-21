@@ -9,12 +9,6 @@
     ],
     "keywords": ["framework", "laravel", "package development"],
     "license": "MIT",
-    "type": "project",
     "require": {},
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
-    },
     "minimum-stability": "dev"
 }
