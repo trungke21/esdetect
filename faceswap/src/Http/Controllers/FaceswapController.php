@@ -9,7 +9,7 @@ class FaceswapController extends BaseController
 {
     static public function getAngle($source)
     {
-    	$url = 'http://192.168.1.11:8888/angle/face';
+    	$url = 'http://45.79.8.219/angle/face';
 		$data = array('source' => $source);
 
 		// use key 'http' even if you send the request to https://...
@@ -27,7 +27,7 @@ class FaceswapController extends BaseController
     }
     static public function swap($source,$destination)
     {
-    	$url = 'http://192.168.1.11:8888/swap/face';
+    	$url = 'http://45.79.8.219/swap/face';
 		$data = array('source' => $source,'destination' => $destination);
 
 		// use key 'http' even if you send the request to https://...
